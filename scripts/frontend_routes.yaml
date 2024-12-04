@@ -1,0 +1,11 @@
+    #add_frontend_start
+       
+    \"https://{all}/\": 
+        type: upstream
+        upstream: \"$FRONTEND_NAME:http\"
+        id: $FRONTEND_NAME
+    \"http://{all}/\":
+        type: redirect
+        to: \"https://{all}/\"
+    
+    #add_frontend_end
