@@ -63,7 +63,7 @@ Perform the following if you haven't already:
 
 ## Contents
 
-1. [Set up the project](./docs/setup.md)
+1. [Set up the project](./docs/setup.md) **Start here!**
 2. [Add an entity](./docs/entity.md)
 3. [Setup an initial frontend](./docs/frontend_a.md)
 4. [Add a Next.js frontent](./docs/frontend_b.md)

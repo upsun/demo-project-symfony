@@ -76,58 +76,9 @@ Then add corresponding ``templates/main/homepage.html.twig``:
 
 ## Styles
 
-A few styling of it: Modify your `assets/styles/app.css` with the following:
+Replace your `assets/styles/app.css` with the contents below:
 
-```css
-body {
-    background-color: rgb(21, 32, 43);
-    color: #fff;
-}
-
-/* DivTable.com */
-.divTable{
-    border: 1px solid #999999;
-    display: table;
-    width: 100%;
-}
-.divTableRow {
-    display: table-row;
-    padding: 0.75rem;
-}
-.divTableCell, .divTableHead {
-    display: table-cell;
-    padding: 3px 10px;
-}
-.divTableHeading {
-    background-color: #565151;
-    display: table-header-group;
-    font-weight: bold;
-}
-.divTableFoot {
-    background-color: #565151;
-    display: table-footer-group;
-    font-weight: bold;
-}
-.divTableBody {
-    display: table-row-group;
-}
-
-.table-dark.table-striped .divTableRow:nth-of-type(odd) {
-    background-color: rgba(255, 255, 255, 0.05);
-}
-
-.table-dark.table-hover .divTableRow:hover {
-    background-color: rgba(255, 255, 255, 0.075);
-}
-
-.sightingLink {
-    cursor: pointer;
-}
-
-.table-dark.table-hover .sightingLink.divTableRow:hover .divTableCell {
-    text-decoration: underline;
-}
-```
+> [`assets/styles/app.css`](https://github.com/upsun/demo-project-symfony/blob/main/files/assets/app.css)
 
 ## Compile assets
 
@@ -165,4 +116,3 @@ symfony deploy
 > When that's completed, you can verify the data in production by visiting `symfony upsun:url --primary`.
 
 With our production site now ready, [let's add a new frontend on an isolated preview environment -->](./frontend_b.md).
-
