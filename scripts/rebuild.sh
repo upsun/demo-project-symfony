@@ -8,3 +8,4 @@
 
 ./scripts/first_frontend.sh
 
+./scripts/final_frontend.sh

@@ -23,22 +23,21 @@ check_command_installed () {
 # 1. Check CLIs are installed.
 check_command_installed symfony
 check_command_installed upsun
+check_command_installed docker
+check_command_installed jq
+check_command_installed node
+check_command_installed npx
 
 # 2. Create a new demo skeleton project.
+symfony new $PROJECT_NAME --php=$PHP_VERSION --upsun
 cd $PROJECT_NAME
-symfony new $BACKEND_NAME --php=$PHP_VERSION --upsun
 
-rm -rf $BACKEND_NAME/.git
-rsync -avzh $BACKEND_NAME/.upsun . --remove-source-files
-rm -rf $BACKEND_NAME/.upsun
-
-git init
 BASE_CONFIG=$(tail -n +12 ".upsun/config.yaml")
 printf "    
 applications:
     $BACKEND_NAME:
         source:
-            root: $BACKEND_NAME
+            root: \"/\"
 $BASE_CONFIG
 
         relationships:
