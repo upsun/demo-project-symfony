@@ -86,10 +86,10 @@ Our first steps are to set up our Symfony backend repository locally.
             to: "https://api.{all}/"
     ```
 
-3. Create a project on Upsun
+3. Create a project on Upsun, using the same organization you created in the previous step:
 
     ```bash
-    symfony upsun:create --org $PROJECT_ORG --title $PROJECT_NAME --region $PROJECT_REGION --default-branch $DEFAULT_BRANCH --set-remote -y
+    symfony upsun:create --set-remote
     ```
 
 4. Stage and commit the changes
