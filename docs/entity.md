@@ -103,7 +103,7 @@ DATABASE_URL="postgresql://app:!ChangeMe!@127.0.0.1:57133/app?serverVersion=16&c
 
 Then generate a migration file and update your local database using it:
 ```shell
-symfony console doctrine:migrations:diff
+symfony console doctrine:migrations:generate
 symfony console doctrine:migrations:migrate
 ```
 
