@@ -110,7 +110,7 @@ symfony deploy
 > To load your Speaker fixtures, you can use the following command:
 >
 > ```shell
-> symfony ssh -- php bin/console doctrine:fixture:load -e dev
+> symfony ssh -- php bin/console doctrine:fixture:load
 >  ```
 >
 > When that's completed, you can verify the data in production by visiting `symfony upsun:url --primary`.
