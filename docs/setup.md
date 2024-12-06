@@ -98,12 +98,6 @@ Our first steps are to set up our Symfony backend repository locally.
     git add . && git commit -m "Initialize Symfony skeleton"
     ```
 
-5. Deploy
+These steps would deploy a pretty uninteresting project to Upsun.
 
-    ```bash
-    symfony deploy
-    ```
-
-These steps will deploy a pretty uninteresting project to Upsun.
-
-[Make it more interesting -->](./entity.md)
+[Let's make it a bit more interesting -->](./entity.md)
