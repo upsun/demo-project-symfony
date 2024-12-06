@@ -97,7 +97,7 @@ DATABASE_URL="postgresql://app:!ChangeMe!@127.0.0.1:57133/app?serverVersion=16&c
 > DB_PUBLISHED_PORT=$(docker compose ps --format json | jq -r '.[] | select(.Service=="database") | .Publishers[0].PublishedPort')
 > printf "    
 > DATABASE_PORT=$DB_PUBLISHED_PORT
-> DATABASE_URL=\"postgresql://app:127.0.0.1:\$DATABASE_PORT/app?serverVersion=16&charset=utf8\"
+> DATABASE_URL=\"postgresql://app:\!ChangeMe\!@127.0.0.1:\$DATABASE_PORT/app?serverVersion=16&charset=utf8"
 > " >> .env.dev
 > ```
 
