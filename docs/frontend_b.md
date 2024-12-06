@@ -234,7 +234,7 @@ applications:
             build: |
                 set -eux
                 npm i
-            deploy: |
+            post_deploy: |
                 set -eux
                 npm run build             
         web:
