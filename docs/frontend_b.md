@@ -249,19 +249,6 @@ git add . && git commit -m "Add a Next.js frontend"
 symfony deploy
 ```
 
-## Merge 
+This is great, but we don't necessarily want all of this user information on all of your preview environments.
 
-When you are satisfied with the changes, merge them into production:
-
-```bash
-symfony upsun:merge
-```
-
-## Managing resources
-
-Once moved into production, you may find that the resources allocated to the containers are not enough. 
-Adjust those resources up or down as needed using the command:
-
-```bash
-symfony upsun:resources-set
-```
+Before we merge, [let's add a script that sanitizes that data -->](./sanitize.md)
