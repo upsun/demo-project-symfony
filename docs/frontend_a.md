@@ -102,7 +102,7 @@ You should see a basic list of all your speakers from the fixtures.
 Then, commit and push your changes to Upsun:
 
 ```shell
-git add assets/styles/app.css src/Controller/MainController.php templates/main/homepage.html.twig && git commit -m "adding styled homepage with speaker list"
+git add . && git commit -m "adding styled homepage with speaker list"
 symfony deploy
 ```
 
