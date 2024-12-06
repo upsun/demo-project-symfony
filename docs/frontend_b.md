@@ -195,6 +195,7 @@ routes:
         type: upstream
         upstream: "client:http"
         id: client
+        primary: true
     "http://{all}/":
         type: redirect
         to: "https://{all}/"
