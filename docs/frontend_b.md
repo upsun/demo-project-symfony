@@ -209,7 +209,7 @@ applications:
 
         ...
 
-    frontend:
+    client:
         type: "nodejs:22"
         
         source: 
