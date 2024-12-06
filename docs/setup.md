@@ -30,6 +30,7 @@ Our first steps are to set up our Symfony backend repository locally.
                     - mbstring
                     - sodium
                     - xsl
+                    - pdo_pgsql
                     
 
             variables:
