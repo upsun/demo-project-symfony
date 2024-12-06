@@ -23,6 +23,8 @@ symfony composer require doctrine/annotations \
 symfony composer require --dev doctrine/doctrine-fixtures-bundle symfony/maker-bundle
 ```
 
+When prompted, choose `yes` to setup Docker configuration.
+
 Then stage and commit your changes:
 
 ```bash 
