@@ -191,7 +191,7 @@ routes:
         type: redirect
         to: "https://api.{all}/"
 
-    "https://api.{all}/": 
+    "https://{all}/": 
         type: upstream
         upstream: "client:http"
         id: client
