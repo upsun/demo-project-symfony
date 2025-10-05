@@ -93,7 +93,7 @@ Stage, commit, and push those changes:
 
 ```bash
 git add . && git commit -m "Add sanitizing command for non-prod deploy hook.
-symfony deploy
+symfony push
 ```
 
 ## Merge 

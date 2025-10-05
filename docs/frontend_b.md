@@ -246,7 +246,7 @@ Stage and commit your changes, and push to Upsun.
 
 ```bash
 git add . && git commit -m "Add a Next.js frontend"
-symfony deploy
+symfony push
 ```
 
 This is great, but we don't necessarily want all of this user information on all of your preview environments.

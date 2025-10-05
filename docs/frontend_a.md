@@ -103,7 +103,7 @@ Then, commit and push your changes to Upsun:
 
 ```shell
 git add . && git commit -m "adding styled homepage with speaker list"
-symfony deploy
+symfony push
 ```
 
 > [!NOTE]

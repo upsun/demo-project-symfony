@@ -60,4 +60,4 @@ routes:
 git add . && git commit -m "Initialize Symfony skeleton"
 
 # symfony upsun:create --org $PROJECT_ORG --title $PROJECT_NAME --region $PROJECT_REGION --default-branch $DEFAULT_BRANCH --set-remote -y
-# symfony deploy -y
+# symfony push -y

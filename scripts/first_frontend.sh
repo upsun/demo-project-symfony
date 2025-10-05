@@ -12,7 +12,7 @@ cp $HOME/files/assets/app.css assets/styles/app.css
 symfony console asset-map:compile
 
 git add assets/styles/app.css src/Controller/MainController.php templates/main/homepage.html.twig && git commit -m "adding styled homepage with speaker list"
-# symfony deploy
+# symfony push
 # symfony ssh -- php bin/console doctrine:fixture:load -e dev
 # symfony server:start -d
 
